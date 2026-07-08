@@ -134,6 +134,40 @@ Share the sheet with edit access (anyone with the link). Report the sheet URL to
 
 ---
 
+## Phase 0.5 — Seed Mode (Optional)
+
+After onboarding (or at the start of any monthly loop), ask before running research:
+
+> "Do you have source content you'd like me to pull ideas from — an ebook, transcript, recording, or a list of ideas you already know you want? Or should I go straight to web research?"
+
+### If the client provides seed content:
+
+Accepted seed formats:
+- **Ebook or document** — paste text or provide a file/URL
+- **YouTube video** — provide a URL; extract the transcript via `https://www.youtube.com/watch?v=[ID]` and summarize key topics
+- **Zoom/Meet recording or transcript** — paste the transcript or upload the file; extract every topic, question, or theme raised in the call
+- **Bullet ideas** — a short list of topics the client already wants to cover
+
+### Seed Processing Steps:
+
+1. **Ingest the seed** — accept whatever format the client provides (text paste, file, URL, bullet list)
+2. **Extract content angles** — pull distinct topic angles from the material. Treat every major point, question, or theme as a potential content angle. Aim for at least 5–10 angles per seed.
+3. **Write to Research tab** — add seed-derived angles to the `Research [Month YYYY]` tab with:
+   - `Signal Source`: `Seed — [type: transcript / ebook / ideas / etc.]`
+   - `Status`: `Pending Approval`
+4. **Ask the client**: "Do you want to mix these with web research results, or use seed-only for this month?"
+   - **Mix**: Run Phase 1 normally, then merge seed angles + research angles in the Research tab
+   - **Seed-only**: Skip Phase 1 and go straight to Phase 2 with the seed angles
+
+### Archiving displaced research angles:
+
+If seed ideas are added to a calendar that already has research-based content planned:
+- Mark any research angles being replaced with `Status: Archived` in the Research tab (never deleted)
+- Insert the seed-derived angles as new rows with `Status: Pending Approval`
+- Re-run Phase 2 approval loop for the updated list before updating the calendar
+
+---
+
 ## Phase 1 — Research
 
 Run each month. Read `Client Config` for niche, target audience, content types, and competitor accounts before starting.
